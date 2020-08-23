@@ -18,11 +18,11 @@ result_full_name_length = len(result_full_name)
 
 # Enter the capital city of California State in lower case. Change the case to title case.
 # Save the result in result_ca_capital variable
-capital = 'sacramento'
-result_ca_capital = capital.title()
+# capital = 'sacramento'
+result_ca_capital = "sacramento".title()
 
 
 # Enter the name of our planet. Change the case to upper case. Save the result in
 # result_planet variable
-planet = 'Earth'
-result_planet = planet.upper()
+# planet = 'Earth'
+result_planet = "Earth".upper()

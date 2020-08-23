@@ -24,8 +24,10 @@ else:
 
 first_name = "Roma"
 last_name = "Shcherbakov"
-if len(first_name) < 5: result_3 = first_name.upper() + last_name.upper()
-else: result_3 = first_name.lower()
+if len(first_name) < 5:
+    result_3 = first_name.upper() + last_name.upper()
+else:
+    result_3 = first_name.lower()
 #print(result_3)
 
 # Enter a number between 10 and 20 (inclusive) and save number to number_2 variable
@@ -45,10 +47,14 @@ else:
 # if you are under 16, save the message “You can go Trick-or-Treating” in result_5 variable.
 
 age = 15
-if age >= 18: result_5 = "You can vote"
-elif age == 17: result_5 = "You can learn to drive"
-elif age == 16: result_5 = 'You can buy a lottery ticket'
-else: result_5 = 'You can go Trick-or-Treating'
+if age >= 18:
+    result_5 = "You can vote"
+elif age == 17:
+    result_5 = "You can learn to drive"
+elif age == 16:
+    result_5 = 'You can buy a lottery ticket'
+else:
+    result_5 = 'You can go Trick-or-Treating'
 # print(result_5)
 
 
