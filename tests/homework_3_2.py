@@ -76,7 +76,7 @@ def test_number_multiplication():
     # and save result in the result_2 variable.
     if result_2 == None or number_1 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
-    result = 0
+    result = 1
     num_string = str(number_1)
     length = len(num_string)
     index = 0
